@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 1rem;
+    height: 100%;
+}
+/* border: 2px purple solid; */
+
+/* body, header, main, footer {
+    min-height: 90px;
+    min-width: 500px;
+    margin: 0.3rem;
+} */
+
+.col-2 {
+    width: 16%;
+}
+.col-10 {
+    width: 84%;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    color: #BE38D9;
+    /* background-color: #923b20; */
+    /* margin: 0; */  
+}
+
+main{
+    min-height: 600px;
+    overflow: auto;
+    /* background-color: rgb(180, 126, 190); */
+    background-color: #d9d9d9
+}
+
+header{
+    background-color: rgb(187, 144, 204);
+    /* margin: 0; */
+}
+
+footer{
+    /* background-color: whitesmoke; */
+    background-color: rgb(187, 144, 204);
+}
+
+/* Contenido principal de pagina principal */
+main>div{
+    min-height: 180px;
+    /* margin: 0.5rem; */
+    padding: 0.3rem;
+    /* border: 3px blueviolet solid; */
+    color: black;
+    height: auto;
+    width: 80%;
+    float: left;
+
+    
+}
+
+main .titulo-principal-h1 {
+    color: #ddcdb9;
+    background-color: #2d2030;
+    font-style: oblique;
+    /* border: 2px #7c301a solid; */
+    text-align: center;
+}
+
+main>aside{
+    /* border: 3px red solid; */
+    background-color: #ddcdb9;
+    color: black;
+    font-weight: 500;
+    min-height: 600px;
+    margin: 0.5rem;
+    padding: 1rem;
+    min-width: 18.5%;
+    width: auto;
+    float: left;
+    text-align: center;
+    box-shadow: 0 0 0.1rem rgb(48, 27, 3);
+}
+
+.titulo-aside{
+    /* border: 1px white solid; */
+    margin: 0.5rem;
+    padding: 0.001rem;
+    color: #ddcdb9;
+    border: 2px #7c301a solid;
+    background-color: #6e5042;
+    box-shadow: 0 0 0.1rem rgb(250, 250, 241);
+}
+
+.aside-cont>h4{
+    font-weight: 800;
+    color: #6e5042;
+}
+
+.GIF-lateral{
+    /* max-width: 10%; */
+    width: 15rem;
+    margin: 1rem;
+}
+
+.aside-cont{
+    max-width: 300px;
+}
+
+.aside-cont>img{
+    /* border: 2px red solid; */
+    max-width: 150px;
+    padding: 0.4rem;
+    box-shadow: 0 0 0.5rem rgb(236, 234, 229);
+}
+
+.seccion-especialesDelMes{
+    /* border: 2px cyan solid; */
+    border: 3px #7c301a dotted;
+    margin: 0.3rem;
+    padding: 0.5rem;
+    
+    
+}
+
+/* .seccion-especialesDelMes .titulo-especialPrimero {
+    border: 4px blue solid;
+    text-align: center;
+} */
+
+.imagen-pg-ppal{
+    width: 30%;
+    box-shadow: 0 0 0.4rem rgb(255, 249, 241);
+}
+
+.seccion-especialesDelMes article{
+    margin: 1.5rem;
+    /* border: 2px whitesmoke solid; */
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    box-shadow: 0 0 0.1rem rgb(59, 27, 0);
+}
+
+.titulo-especialPrimero{
+    border: 1px #7c301a solid;
+    padding: 0.2rem;
+    margin: 1.5rem;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.titulo-especialSegundo{
+    border: 1px #e37833 solid;
+    padding: 0.2rem;
+    margin: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.seccion-especialesDelMes>p{
+    /* border: 1px brown solid; */
+    margin: 1.5rem;
+}
+
+/* Barra del navegador */
+.header-logo{
+    width: auto;
+    display: inline-block;
+    margin: 0.7rem;
+
+}
+
+.header-navegador {
+    /* border: 1px black solid; */
+    /* margin: 1rem; */
+    left: auto;
+    position: relative;
+    top: auto;
+    width: auto;
+    display: inline-block;
+    
+    
+
+}
+
+.header-navegador ul {
+    list-style: none;
+}
+
+.header-navegador li {
+    float: left;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.6rem;
+}
+
+.header-navegador a {
+    color: #2d2030;
+    text-decoration: none;
+
+}
+
+.header-navegador a:hover {
+    color: bisque;
+}
+
+.txt_footer {
+    padding: 0.01rem;
+    color: black;
+    text-align: center;
+}
+
+/* .column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+} */
+
+/* Animacion */
+.titulo-principal-h1 {
+    animation-name: anim_h1_ppal;
+    animation-delay: 2s;
+    animation-iteration-count: initial;
+    animation-duration: 5s;
+}
+
+@keyframes anim_h1_ppal {
+    0% {transform: rotateX(0deg);}
+    80% {transform: rotateX(0deg);}
+    90% {transform: rotateX(90deg);}
+    100% {transform: rotateX(0deg);}
+}
+
+.imagen-pg-ppal {
+    animation-name: anim_img_ppal;
+    animation-duration: 1s;
+}
+
+@keyframes anim_img_ppal {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}

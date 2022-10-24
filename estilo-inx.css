@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    font-size: 1rem;
+    height: 100%;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    background-color: #d9d9d9;
+}
+.col-2 {
+    width: 16.6%;
+    padding: 10px;
+    background-color: #ddcdb9;
+    box-shadow: 0 0 0.2rem rgb(48, 27, 3);
+}
+.col-3 {
+    box-shadow: 0 0 0.1rem rgb(0, 0, 0);
+    width: 33.3%;
+    padding: 10px;
+}
+.col-5 {
+    width: 40%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-8 {
+    width: 66.6%;
+    padding: 10px;
+}
+.col-10 {
+    padding: 10px;
+    width: 80%;
+}
+.col-12 {
+    padding: 10px;
+    width: 100%;
+    /* border: 2px red solid; */
+}
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+}
+
+
+#logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+nav {
+    position: relative;
+    bottom: 5%;
+}
+
+nav>a {   
+    text-decoration: none;
+    font-size: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    padding-left: 15px;
+    color: black;
+    font-style: oblique;
+    font-weight: bolder;
+
+}
+header a:hover{
+    color: #006A4E   
+}
+#navegador {
+    background-color: #f4ece0;
+    box-shadow: 0 0 0.1rem rgb(19, 8, 0);
+}
+
+h1{
+    /* font-size: 4.25em; */
+    font-size: 5vw;
+    font-style: oblique;
+    color:rgb(17, 17, 16);
+    color: #d9d9d9; 
+    -webkit-text-stroke: 0.15vw #b46f2b;
+}
+
+h2{
+    font-size: 2.5em;
+    color:black;
+    text-decoration: underline
+}
+
+h3{
+    font-size: 2em;
+    color:rgb(0, 0, 0);
+}
+
+p{
+    font-size: 20px
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    color: #d9d9d9;
+    font: bolder;
+    /* background-image: url(imagenes/Mapa.webp.jpeg); */
+    background-size: center;
+    background-position: center;
+    background: rgba(0, 0, 0, 0.7) url(imagenes/Mapa.webp.jpeg);
+    background-blend-mode: darken;
+   
+}
+
+.contenedor {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+.somoscc .container{
+    background-color:#d9d9d9;
+    text-align: center;
+    
+}
+
+.color-resaltado{
+    color: #b46f2b;
+}
+
+.cup{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+
+.nuestras-propuestas .container{
+    text-align: center;
+    padding: 25px, 40px;
+    
+}
+
+.nuestras-propuestas .carta{
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 0 0.2rem rgb(19, 8, 0);
+}
+
+.container{
+    padding: 5px;
+}
+
+.carta:first-child{
+    background-color: rgb(108, 201, 196);
+    display: inline-block;
+}
+
+.carta:nth-child(2){
+    background-color: rgb(141,178,144);
+    display: inline-block;
+}
+
+.carta:nth-child(3){
+    background-color: #8d8291;
+    display: inline-block;
+}
+
+.carta:nth-child(4){
+    background-color: #bb8f7f;
+    display: inline-block;
+}
+
+.carta:nth-child(5){
+    background-color: #ce9c47;
+    display: inline-block;
+}
+
+button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 50px;
+    border-radius: 15px;
+    border:solid 2px; color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 8px;
+    color: #f4ece0;
+    background-color: #006A4E;
+}
+
+button:hover{
+    color: #b46f2b;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer {
+    text-align: center;
+    background-color: #ddcdb9;
+    border: 1px #2d2030 solid;
+}

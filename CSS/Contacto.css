@@ -1,0 +1,164 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+    font-size: 1rem;
+    height: 100%;
+}
+
+body{
+	/* margin: 0; */
+	font-family: sans-serif;
+	background-color:  #d9d9d9; 
+
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 34%;
+    padding: 10px;
+}
+.col-6 {
+    width: 50%;
+}
+.col-8 {
+    width: 66%;
+    padding: 10px;
+}
+.col-9 {
+    width: 75%;
+    padding: 10px;
+}
+.col-12 {
+    padding: 10px;
+    width: 100%;
+    /* border: 2px red solid; */
+}
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+}
+#logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+nav {
+    position: relative;
+    bottom: 5%;
+}
+
+nav>a {   
+    text-decoration: none;
+    font-size: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    padding-left: 15px;
+    color: black;
+    font-style: oblique;
+    font-weight: bolder;
+
+}
+header a:hover{
+    color: #006A4E   
+}
+#navegador {
+    background-color: #f4ece0;
+    box-shadow: 0 0 0.1rem rgb(19, 8, 0);
+}
+
+.principal {
+	display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.formulario{
+	width: 500px;
+	max-width: 100%;
+	margin: auto;
+	margin-top: 30px;
+	padding: 20px;
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+	position: relative;
+
+}
+
+.formulario-titulo{
+	text-align: center;
+	margin-top: 0;
+	color: #7c301a;
+}
+
+.formulario-input, .formulario-label, .formulario-submit {
+	display: block;
+	width: 100%;
+	font-size: 1.3em;
+		
+}
+
+.formulario-input{
+	padding: 20px;
+	background: transparent;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	margin-bottom: 40px;
+
+}
+.formulario-input:focus{
+	outline: 1px solid;
+}
+
+.formulario-input:focus + .formulario-label{
+	margin-top: -130px;
+}
+
+
+.formulario-label{
+	padding-left: 15px;
+	position: absolute;
+	margin-top: -85px;
+	z-index: -20;
+	transition: all 0.2s;
+
+}
+
+.formulario-submit{
+	background: rgba(201, 107, 0, 0.7);
+	padding: 10px, 20px;
+	cursor:pointer;
+	border: none;
+
+}
+
+.fijar{
+	margin-top: -130px;
+}
+
+.footer {
+	margin-top: 25px;
+    text-align: center;
+    background-color: #ddcdb9;
+    border: 1px #2d2030 solid;
+}
+
+#recuadro-mapa {
+    background: transparent;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+#map {
+    border: 2px #2d2030 solid;
+    background-color: #f4ece0;
+    /* height: 100px; */
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#UbicacionLink>a:hover {
+    color: #7c301a;
+    font-weight: bold;
+}

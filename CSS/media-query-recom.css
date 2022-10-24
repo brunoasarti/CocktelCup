@@ -1,0 +1,50 @@
+@media screen and (max-width: 1200px) {
+    .contenido-principal {
+        width: 100%;
+    }
+    .seccion-especialesDelMes {
+        width: 100%;
+    }
+
+    .aside {
+        width: 100%;
+    }
+    .GIF-lateral{
+        width: 20%;
+        margin: 1rem;
+    }
+
+    .top-5 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Disp moviles */
+@media screen and (max-width: 768px) {
+    .contenido-principal {
+        width: 100%;
+    }
+
+    .seccion-especialesDelMes {
+        width: 100%;
+    }
+    .aside {
+        width: 100%;
+    }
+    .GIF-lateral{
+        width: 30%;
+        margin: 1rem;
+    }
+    .GIF-lateral {
+        visibility: hidden;
+        display: none;
+    }
+    .img_ac {
+        visibility: hidden;
+        display: none;
+    }
+    .top-5 {
+        display: block;
+    }
+}

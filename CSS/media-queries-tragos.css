@@ -1,0 +1,57 @@
+@media screen and (max-width: 1200px) {
+    .menu {
+        width: 20%;
+    }
+
+    .contenido { 
+        width: 80%;
+    }
+    .aside {
+        width: 100%;
+    }
+
+    .contenido > div {
+        width: 48%; 
+    }
+
+    /* .espacio-redes {
+        border: 2px red solid;
+        width: fit-content;
+    } */
+    .red_social {  
+        width: 25px;
+        margin: 10px;
+    }
+
+    .espacio-redes{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        margin-top: 10px;
+    }
+}
+
+/* Disp moviles */
+@media screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .menu {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+
+    }
+    .contenido > div {
+        width: 100%;
+        
+    }
+    .img-trago {
+        width: 50%;
+    }
+    
+
+}

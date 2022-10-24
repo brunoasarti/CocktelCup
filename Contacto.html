@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cocktail cup Contactos</title>
+  <link rel="icon" href="Imagenes/cocktail-Cup.ico.ico">
+	<link rel="stylesheet" href="CSS/Contacto.css">
+</head>
+<body>
+  <header class="col-12">
+    <div id="logo" class="col-12">
+      <a href="Index.html"><img src="Imagenes/Logo1.png" alt="imagen de tragos"></a>
+    </div>
+
+    <div id="navegador" class="col-12">
+      <nav>
+        <a href="Index.html">Inicio</a>
+        <a href="tragos.html">Tragos</a>
+        <a href="recom.html">Recomendados</a>
+        <a href="Contacto.html">Contacto</a>
+      </nav>
+    </div>
+
+  </header>
+
+  <div class="col-12 principal">
+    <div class="col-9">
+      <form action="" class="formulario" method="post" onsubmit="return validar ();">
+        <h1 class="formulario-titulo">Comunicate con nosotros</h1>
+        <input type="text" class="formulario-input" id="Nombre">
+        <label for="" class="formulario-label">Nombre</label>
+        <input type="text" class="formulario-input" id="Apellido">
+        <label for="" class="formulario-label">Apellido</label>
+        <input type="text" class="formulario-input" id="Correo">
+        <label for="" class="formulario-label">Correo</label>
+        <input type="text" class="formulario-input" id="Desde">
+        <label for="" class="formulario-label">Desde donde nos contactas</label>
+        <input type="text" class="formulario-input" id="Mensaje">
+        <label for="" class="formulario-label">Mensaje</label>
+        <input type="submit" class="formulario-submit" >
+      </form>
+    </div>
+
+    <div id="recuadro-mapa" class="col-3">
+      <h4 style="color: black; font-style: oblique;">Visita el local de bebidas más cercano</h4>
+      <div id="map">
+        <div>
+          <p id="posicionUsuario">Ubicacion desconocida</p>
+          <!-- <p>Su posición es: <span id="posicionUsuario">Desconocida</span></p> -->
+          <p id="UbicacionLink"><a target="_blank"></a></p>
+      </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  <script src="JavaScript/Contacto.js"></script>
+  <script src="JavaScript/GeoLocation.js"></script>
+
+
+
+
+  <div class="col-12 footer">
+    <div class="col-6">
+        <h5>Nosotros</h5>
+        <h6>Podworny Leonardo</h6>
+        <h6>Sarti Bruno Ariel</h6>
+    </div>
+    <div class="col-6">
+        <p>&copy; Coctail Group S.A</p>
+    </div>
+    
+</div>
+    
+</body>
+</html>

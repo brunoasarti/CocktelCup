@@ -1,0 +1,99 @@
+/* Disp moviles */
+@media screen and (max-width: 600px) {
+    body {
+        /* background-color: greenyellow; */
+        margin: 0rem;
+        padding: 0rem;
+        
+    }
+    main, header, footer {
+        margin: 0%;
+    }
+    
+
+    .contenido-principal {
+        width: 100%;
+    }
+    .contenido-lateral {
+        width: 100%;
+        max-width: 600px;
+    }
+    
+    .GIF-lateral {
+        visibility: hidden;
+        display: none;
+    }
+    .img_ac {
+        /* border: 6px green solid; */
+        visibility: hidden;
+        display: none;
+    }
+
+    .aside-cont {
+        margin: 4rem;
+        /* left: auto;
+        position: relative;
+        top: auto;
+        width: auto;
+        display: block */
+    }
+
+
+}
+
+
+
+/* Disp medios */
+@media screen and (min-width: 600px) {
+    body {
+        /* background-color: red; */
+        margin: 0.1rem;
+        padding: 0.1rem;
+    }
+   
+    .contenido-principal {
+        width: 100%;
+    }
+    .contenido-lateral {
+        width: 100%;
+    }
+
+    .aside-cont {
+        /* border: 3px red solid; */
+        position: relative;
+        top: 1rem;
+        left: auto;
+        width: auto;
+        display: inline-block;
+ 
+    }
+}
+
+
+
+/* Escritorio */
+/* @media screen and (min-width: 1620px) { */
+@media screen and (min-width: 1650px) {
+    body {
+        background-color: #2d2030;
+    }
+    .contenido-principal {
+        width: 80%;
+    }
+
+    .aside-cont {
+        
+        left: auto;
+        position: relative;
+        top: auto;
+        width: auto;
+        display: block;
+    }
+    
+    .contenido-lateral {
+        width: auto;
+    }
+    
+
+    
+}
